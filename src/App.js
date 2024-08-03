@@ -24,7 +24,7 @@ function App() {
   const [color, setColor] = useState("#fff");
   const [logged,setLogged] = useState(false)
   useEffect(() => {
-    setLoading(true);
+    setLoading(false);
     setTimeout(() => {
       setLoading(false);
     },3000)
